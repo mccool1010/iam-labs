@@ -18,13 +18,21 @@ Create test identities in a cloud identity provider and require multi-factor aut
 6. Enrolled an authenticator app by scanning the QR code, then passed the 6-digit code challenge.
 
 ## Screenshots
-| File | Shows |
-|------|-------|
-| users.png | The two test users in the tenant |
-| otp-toggle.png | One-Time Password enabled |
-| policy-always.png | MFA policy set to Always |
-| verify-identity.png | The login prompt asking for the code |
-| success.png | Successful login after MFA |
+
+### 1. Test users
+![Users list](users.png)
+
+### 2. One-Time Password enabled
+![One-Time Password enabled](otp-toggle.png)
+
+### 3. MFA policy set to Always
+![MFA policy set to Always](policy-always.png)
+
+### 4. Login asking for the code
+![Login asking for the code](verify-identity.png)
+
+### 5. Successful login after MFA
+![Successful login](success.png)
 
 ## Observations
 - With the policy on Always, a correct password alone is not enough to log in, which blocks attacks that rely on stolen passwords.
